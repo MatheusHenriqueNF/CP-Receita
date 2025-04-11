@@ -1,0 +1,427 @@
+[
+    {
+      "id": 1,
+      "categoria": "Café",
+      "nome": "Pão de Queijo",
+      "ingredientes": [
+        "500g de polvilho azedo",
+        "250ml de leite",
+        "100ml de óleo",
+        "2 ovos",
+        "200g de queijo minas",
+        "1 colher de chá de sal"
+      ],
+      "modoPreparo": "Ferva o leite com o óleo e o sal. Misture com o polvilho. Adicione os ovos e o queijo. Modele e asse a 200°C por 25 minutos.",
+      "tempo": "40 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 2,
+      "categoria": "Café",
+      "nome": "Bolo de Fubá",
+      "ingredientes": [
+        "2 xícaras de fubá",
+        "1 xícara de açúcar",
+        "1 xícara de leite",
+        "3 ovos",
+        "1/2 xícara de óleo",
+        "1 colher de fermento"
+      ],
+      "modoPreparo": "Misture tudo no liquidificador. Despeje em forma untada e leve ao forno pré-aquecido a 180°C por 35 minutos.",
+      "tempo": "45 minutos",
+      "imagem": "/image/bolo-fuba.webp"
+    },
+    {
+      "id": 3,
+      "categoria": "Café",
+      "nome": "Café com Leite Cremoso",
+      "ingredientes": [
+        "2 colheres de sopa de café solúvel",
+        "2 colheres de açúcar",
+        "2 colheres de água quente",
+        "Leite quente"
+      ],
+      "modoPreparo": "Bata o café, açúcar e água até virar um creme. Sirva com leite quente.",
+      "tempo": "5 minutos",
+      "imagem": "/image/cafe-cremoso.jpeg"
+    },
+    {
+      "id": 4,
+      "categoria": "Café",
+      "nome": "Tapioca Recheada",
+      "ingredientes": [
+        "3 colheres de sopa de goma de tapioca",
+        "1 fatia de queijo",
+        "1 fatia de presunto"
+      ],
+      "modoPreparo": "Espalhe a goma em frigideira quente até formar uma panqueca. Recheie e dobre.",
+      "tempo": "10 minutos",
+      "imagem": "/image/tapioca-recheada.webp"
+    },
+    {
+      "id": 5,
+      "categoria": "Café",
+      "nome": "Pão Caseiro na Frigideira",
+      "ingredientes": [
+        "1 xícara de farinha de trigo",
+        "1/2 xícara de água",
+        "1 colher de sopa de óleo",
+        "1 colher de fermento químico",
+        "Sal a gosto"
+      ],
+      "modoPreparo": "Misture tudo, modele discos e asse na frigideira até dourar dos dois lados.",
+      "tempo": "20 minutos",
+      "imagem": "/image/pao-frigideira.jpg"
+    },
+    {
+      "id": 6,
+      "categoria": "Café",
+      "nome": "Panqueca de Banana",
+      "ingredientes": [
+        "1 banana amassada",
+        "1 ovo",
+        "2 colheres de aveia",
+        "Canela a gosto"
+      ],
+      "modoPreparo": "Misture tudo e frite em frigideira antiaderente. Sirva com mel.",
+      "tempo": "10 minutos",
+      "imagem": "/image/panqueca-banana.webp"
+    },
+    {
+      "id": 7,
+      "categoria": "Almoço",
+      "nome": "Frango Grelhado com Legumes",
+      "ingredientes": [
+        "2 filés de frango",
+        "Legumes variados (brócolis, cenoura, abobrinha)",
+        "Azeite, sal e pimenta a gosto"
+      ],
+      "modoPreparo": "Tempere o frango e grelhe. Cozinhe os legumes no vapor e sirva juntos.",
+      "tempo": "30 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 8,
+      "categoria": "Almoço",
+      "nome": "Arroz à Grega",
+      "ingredientes": [
+        "2 xícaras de arroz cozido",
+        "1/2 cenoura picada",
+        "1/2 xícara de ervilha",
+        "1/2 xícara de milho",
+        "Pimentão a gosto"
+      ],
+      "modoPreparo": "Refogue os legumes e misture ao arroz cozido. Sirva quente.",
+      "tempo": "25 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 9,
+      "categoria": "Almoço",
+      "nome": "Feijoada Light",
+      "ingredientes": [
+        "250g de feijão preto",
+        "150g de carne magra",
+        "Alho, cebola, louro",
+        "Sal a gosto"
+      ],
+      "modoPreparo": "Cozinhe o feijão com os temperos e carnes. Sirva com arroz.",
+      "tempo": "1h",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 10,
+      "categoria": "Almoço",
+      "nome": "Macarrão ao Alho e Óleo",
+      "ingredientes": [
+        "200g de espaguete",
+        "4 dentes de alho",
+        "3 colheres de azeite",
+        "Sal e salsinha"
+      ],
+      "modoPreparo": "Cozinhe o macarrão e refogue no alho dourado com azeite.",
+      "tempo": "20 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 11,
+      "categoria": "Almoço",
+      "nome": "Omelete Recheado",
+      "ingredientes": [
+        "2 ovos",
+        "1 colher de leite",
+        "Presunto, queijo, tomate"
+      ],
+      "modoPreparo": "Bata os ovos com leite. Recheie e frite em frigideira.",
+      "tempo": "10 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 12,
+      "categoria": "Almoço",
+      "nome": "Strogonoff de Carne",
+      "ingredientes": [
+        "400g de carne em tiras",
+        "1 cebola picada",
+        "1 caixinha de creme de leite",
+        "Ketchup e mostarda"
+      ],
+      "modoPreparo": "Refogue a carne, junte os temperos e finalize com creme de leite.",
+      "tempo": "35 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 13,
+      "categoria": "Sobremesa",
+      "nome": "Brigadeiro",
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "2 colheres de chocolate em pó",
+        "1 colher de manteiga",
+        "Chocolate granulado"
+      ],
+      "modoPreparo": "Misture os ingredientes e cozinhe até soltar do fundo. Enrole e passe no granulado.",
+      "tempo": "20 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 14,
+      "categoria": "Sobremesa",
+      "nome": "Pudim de Leite",
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "2 latas de leite",
+        "3 ovos",
+        "1 xícara de açúcar (calda)"
+      ],
+      "modoPreparo": "Bata tudo no liquidificador. Caramelize uma forma e asse em banho-maria por 1h.",
+      "tempo": "1h 30min",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 15,
+      "categoria": "Sobremesa",
+      "nome": "Mousse de Maracujá",
+      "ingredientes": [
+        "1 lata de leite condensado",
+        "1 lata de creme de leite",
+        "1 medida de suco de maracujá concentrado"
+      ],
+      "modoPreparo": "Misture tudo e leve à geladeira por 4h.",
+      "tempo": "10 minutos + gelar",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 16,
+      "categoria": "Sobremesa",
+      "nome": "Torta de Limão",
+      "ingredientes": [
+        "1 pacote de bolacha maisena",
+        "100g de manteiga",
+        "1 lata de leite condensado",
+        "Suco de 2 limões",
+        "1 caixinha de creme de leite"
+      ],
+      "modoPreparo": "Triture a bolacha, misture com a manteiga. Forre a forma. Misture os outros ingredientes e leve à geladeira.",
+      "tempo": "1h",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 17,
+      "categoria": "Sobremesa",
+      "nome": "Bolo de Chocolate Simples",
+      "ingredientes": [
+        "2 xícaras de farinha",
+        "1 xícara de açúcar",
+        "1 xícara de leite",
+        "1/2 xícara de óleo",
+        "1 xícara de chocolate em pó",
+        "2 ovos",
+        "1 colher de fermento"
+      ],
+      "modoPreparo": "Misture tudo, despeje na forma e asse a 180°C por 35 minutos.",
+      "tempo": "45 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 18,
+      "categoria": "Sobremesa",
+      "nome": "Frutas com Iogurte e Mel",
+      "ingredientes": [
+        "1 banana",
+        "1 maçã",
+        "1/2 mamão",
+        "1 pote de iogurte natural",
+        "Mel a gosto"
+      ],
+      "modoPreparo": "Pique as frutas, cubra com iogurte e finalize com mel.",
+      "tempo": "5 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 19,
+      "categoria": "Lanche",
+      "nome": "Sanduíche Natural",
+      "ingredientes": [
+        "2 fatias de pão integral",
+        "1 folha de alface",
+        "1 fatia de queijo branco",
+        "1 fatia de peito de peru",
+        "1 colher de maionese"
+      ],
+      "modoPreparo": "Monte o sanduíche com os ingredientes.",
+      "tempo": "5 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 20,
+      "categoria": "Lanche",
+      "nome": "Wrap de Frango",
+      "ingredientes": [
+        "1 pão folha",
+        "Frango desfiado",
+        "Alface e tomate",
+        "Molho de iogurte"
+      ],
+      "modoPreparo": "Recheie o pão folha e enrole como wrap.",
+      "tempo": "10 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 21,
+      "categoria": "Lanche",
+      "nome": "Cuscuz Nordestino",
+      "ingredientes": [
+        "1 xícara de flocão de milho",
+        "1/2 xícara de água",
+        "Sal a gosto"
+      ],
+      "modoPreparo": "Hidrate o flocão e cozinhe na cuscuzeira por 10 minutos.",
+      "tempo": "15 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 22,
+      "categoria": "Lanche",
+      "nome": "Vitamina de Frutas",
+      "ingredientes": [
+        "1 banana",
+        "1 maçã",
+        "1 copo de leite",
+        "1 colher de aveia"
+      ],
+      "modoPreparo": "Bata tudo no liquidificador.",
+      "tempo": "5 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 23,
+      "categoria": "Lanche",
+      "nome": "Mini Pizza de Pão",
+      "ingredientes": [
+        "1 fatia de pão de forma",
+        "Molho de tomate",
+        "Queijo e presunto",
+        "Orégano"
+      ],
+      "modoPreparo": "Monte e leve ao forno até o queijo derreter.",
+      "tempo": "10 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 24,
+      "categoria": "Lanche",
+      "nome": "Biscoito de Aveia",
+      "ingredientes": [
+        "1 xícara de aveia",
+        "1 banana amassada",
+        "1 colher de mel"
+      ],
+      "modoPreparo": "Misture e modele biscoitos. Asse por 15 minutos a 180°C.",
+      "tempo": "20 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 25,
+      "categoria": "Jantar",
+      "nome": "Sopa de Legumes",
+      "ingredientes": [
+        "Cenoura, batata, abobrinha",
+        "1 litro de água",
+        "Sal e temperos a gosto"
+      ],
+      "modoPreparo": "Cozinhe os legumes e bata no liquidificador. Sirva quente.",
+      "tempo": "40 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 26,
+      "categoria": "Jantar",
+      "nome": "Escondidinho de Carne Moída",
+      "ingredientes": [
+        "500g de carne moída",
+        "1kg de batata",
+        "1 colher de manteiga",
+        "Queijo ralado"
+      ],
+      "modoPreparo": "Faça purê de batata, refogue a carne e monte camadas. Leve ao forno para gratinar.",
+      "tempo": "1h",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 27,
+      "categoria": "Jantar",
+      "nome": "Panqueca Salgada",
+      "ingredientes": [
+        "1 xícara de leite",
+        "1 ovo",
+        "1 xícara de farinha",
+        "Recheio a gosto"
+      ],
+      "modoPreparo": "Bata os ingredientes da massa. Frite e recheie com carne ou frango.",
+      "tempo": "30 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 28,
+      "categoria": "Jantar",
+      "nome": "Arroz de Forno",
+      "ingredientes": [
+        "Arroz cozido",
+        "Presunto e queijo",
+        "Molho de tomate",
+        "Queijo ralado"
+      ],
+      "modoPreparo": "Misture tudo, cubra com queijo e leve ao forno até gratinar.",
+      "tempo": "35 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 29,
+      "categoria": "Jantar",
+      "nome": "Tortilha de Batata",
+      "ingredientes": [
+        "3 batatas cozidas",
+        "2 ovos",
+        "Sal, pimenta",
+        "Cebola"
+      ],
+      "modoPreparo": "Corte as batatas, misture com ovos batidos e cebola. Frite dos dois lados.",
+      "tempo": "25 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    },
+    {
+      "id": 30,
+      "categoria": "Jantar",
+      "nome": "Risoto de Legumes",
+      "ingredientes": [
+        "1 xícara de arroz arbório",
+        "Caldo de legumes",
+        "Cenoura, ervilha, abobrinha",
+        "Parmesão"
+      ],
+      "modoPreparo": "Refogue o arroz, adicione caldo aos poucos e os legumes. Finalize com parmesão.",
+      "tempo": "40 minutos",
+      "imagem": "/image/pao-queijo.jpg"
+    }
+  ]
