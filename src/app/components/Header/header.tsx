@@ -1,10 +1,11 @@
 import Link from "next/link";
 import Image from "next/image";
+import { ThemeToggle } from "../ThemeToggle/ThemeToggle";
 
 const Header = () => {
     return (
         <>
-            <header className='w-full h-[113px] shadow-2xl bg-[#FEF2DC] flex justify-between items-center p-12'>
+            <header className='w-full h-[113px] shadow-2xl bg-[#FEF2DC] flex justify-between items-center p-12 '>
                 <div className='h-[113px] flex items-center justify-center gap-4'>
                     <Image src={"/image/logo.png"} alt="" width={200} height={200} />
                 </div>
@@ -17,8 +18,12 @@ const Header = () => {
                     </li>
                     <li className='px-4 hover:text-[#EA3529] transition duration-300'>
                         <Link href={'/pages/Sobre'}>Sobre Nós</Link>
-                    </li>
+                    </li> 
+                    <li className="px-4">
+    <ThemeToggle /> {/* Coloquei o ThemeToggle dentro de um li separado */}
+  </li>
                 </ul>
+               
             </header>
         </>
     );

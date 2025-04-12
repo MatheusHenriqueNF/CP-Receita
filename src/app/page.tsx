@@ -10,6 +10,7 @@ import CardMotivo from "./components/Card_Motivo/cardmotivo";
 
 
 
+
 export default function Home() {
   return (
     <>
@@ -51,8 +52,9 @@ export default function Home() {
         <CardQualidade title="Reserve um tempo para a diversão na cozinha" imagem="/image/icon-time.png"/>
         <CardQualidade title="Reserve um tempo para a diversão na cozinha" imagem="/image/icon-time.png"/>
         <CardQualidade title="Reserve um tempo para a diversão na cozinha" imagem="/image/icon-time.png"/>
+       
       </section>
-
+      
       <section className="w-full h-[600] flex justify-center items-center mt-30 p-12 ">
         <div className="w-full flex justify-center items-center gap-30">
         <div>
