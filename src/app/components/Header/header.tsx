@@ -5,7 +5,7 @@ import { ThemeToggle } from "../ThemeToggle/ThemeToggle";
 const Header = () => {
     return (
         <>
-            <header className='w-full h-[113px] shadow-2xl bg-[#FEF2DC] flex justify-between items-center p-12 '>
+            <header className='w-full h-[113px] shadow-2xl bg-[#FEF2DC]  flex justify-between items-center p-12 '>
                 <div className='h-[113px] flex items-center justify-center gap-4'>
                     <Image src={"/image/logo.png"} alt="" width={200} height={200} />
                 </div>
@@ -20,8 +20,8 @@ const Header = () => {
                         <Link href={'/pages/Sobre'}>Sobre Nós</Link>
                     </li> 
                     <li className="px-4">
-    <ThemeToggle /> {/* Coloquei o ThemeToggle dentro de um li separado */}
-  </li>
+                        <ThemeToggle /> 
+                    </li>
                 </ul>
                
             </header>
