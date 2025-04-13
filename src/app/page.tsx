@@ -20,7 +20,7 @@ export default function Home() {
           <div className="flex flex-col justify-center items-center lg:items-start text-center lg:text-left">
             <h1 className="font-semibold text-[#2C2C25] text-3xl sm:text-4xl md:text-5xl lg:text-6xl flex flex-wrap items-center justify-center lg:justify-start gap-2 sm:gap-4">
               Faça
-              <div className="flex justify-center items-center w-[160px] sm:w-[200px] md:w-[250px] h-[60px] sm:h-[70px] md:h-[80px] bg-[#FE9D0E] rounded-full shadow-2xl rotate-[350deg] text-white text-base ssm:text-4xl md:text-5xl lg:text-6xl">
+              <div className="flex justify-center items-center w-[160px] sm:w-[200px] md:w-[250px] h-[60px] sm:h-[70px] md:h-[80px] bg-[#FE9D0E] rounded-full shadow-2xl rotate-[350deg] text-white text-base sm:text-4xl md:text-5xl lg:text-5xl">
                 Comida
               </div>
             </h1>
@@ -32,7 +32,7 @@ export default function Home() {
             <p className="text-base sm:text-lg md:text-xl text-justify text-[#2C2C25] mb-4">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut commodi ducimus aut aperiam deleniti dolorum architecto! Magnam earum minima, error ea atque pariatur a, at, sapiente ducimus esse eos. Quibusdam?
             </p>
-            <Botao titulo="Conheça mais" />
+            <Link href={"/pages/Pratos"}><Botao titulo="Conheça mais" /></Link>
           </div>
         </div>
 
