@@ -7,6 +7,9 @@ import Receita from "@/app/components/Receita/receita";
 import Botao from "@/app/components/Botao/botao";
 import CardProduto from "@/app/components/Card_Produto/cardproduto";
 
+
+// Tipo que define a estrutura dos dados de cada receita
+
 type Categorias ={
     id:string;
     categoria:string;
@@ -22,25 +25,38 @@ type Categorias ={
 
 const Pratos = () => {
 
+    // Estado para armazenar as categorias únicas
     const [categorias, setCategoria] = useState<Categorias[]>([]);
+
+    // Estado com todos os produtos carregados do JSON
     const [todosProdutos, setTodosProdutos] = useState<Categorias[]>([]);
+
+    // Estado com os pratos filtrados pela categoria selecionada
     const [pratos, setPratos] = useState<Categorias[]>([]);
+
+    // Categoria selecionada no filtro
     const [categoriaSelecionada, setCategoriaSelecionada] = useState<string | null>(null);
+
+    // Prato selecionado para exibir o modal com detalhes
     const [pratoSelecionado, setPratoSelecionado] = useState<Categorias | null>(null);
 
+    // Carrega os dados do arquivo receitas.json ao montar o componente
     useEffect(() => {
         const buscarCategoria = async () => {
             try {
                 const response = await fetch("/data/receitas.json");
                 const data = await response.json();
 
+                // Salva todos os produtos
                 setTodosProdutos(data);
 
+                // Filtra as categorias únicas a partir do array de receitas
                 const categoriasUnicas = data.filter(
                     (item: Categorias, index: number, self: Categorias[]) =>
                         index === self.findIndex((t) => t.categoria === item.categoria)
                 );
 
+                // Atualiza o estado com categorias únicas
                 setCategoria(categoriasUnicas);
             } catch (error) {
                 console.error(error);
@@ -51,13 +67,16 @@ const Pratos = () => {
     }
     , []);
 
+    // Atualiza a lista de pratos com base na categoria selecionada
     useEffect(() => {
         if (categoriaSelecionada) {
             const filtrados = todosProdutos.filter(
                 (item) => item.categoria === categoriaSelecionada
             );
+            // Mostra apenas os pratos da categoria escolhida
             setPratos(filtrados);
         } else {
+            // Se nenhuma categoria estiver selecionada, zera os pratos exibidos
             setPratos([]);
         }
     }, [categoriaSelecionada, todosProdutos]);
@@ -100,7 +119,7 @@ const Pratos = () => {
             </section>
 
 
-            {/* categoria dos pratos */}
+            {/* Seção de exibição das categorias dos pratos */}
             <section className="w-full flex flex-col justify-center items-center gap-6 sm:gap-8 md:gap-10 px-4 sm:px-6 md:px-12 py-12">
                 <h1 className="text-3xl sm:text-4xl font-semibold text-[#FE9D0E] text-center">Categorias</h1>
 
@@ -109,14 +128,14 @@ const Pratos = () => {
                     <Card_Filtro
                         key={index}
                         categoria={prod.categoria}
-                        onClick={() => setCategoriaSelecionada(prod.categoria)}
+                        onClick={() => setCategoriaSelecionada(prod.categoria)} // Define categoria ao clicar
                     />
                     ))}
                 </div>
             </section>
 
 
-            {/* trazer apenas os pratos que correspondem a categoria selecionada */}
+            {/* Seção traz apenas os pratos que correspondem a categoria selecionada */}
             <section className="w-full flex justify-center items-center flex-wrap gap-6 sm:gap-8 md:gap-10 px-4 sm:px-6 md:px-12 py-8">
                 {pratos.map((prod, index) => (
                     <div key={index} onClick={() => setPratoSelecionado(prod)}>
@@ -129,6 +148,7 @@ const Pratos = () => {
                 ))}
             </section>
 
+            {/* Pop-up que mostra detalhes do prato (receita) selecionado */}
             {pratoSelecionado && (
                 <div className="fixed inset-0 bg-[rgba(0,0,0,0.6)] z-50 flex items-center justify-center p-2 sm:p-4">
                     <div className="bg-white rounded-2xl shadow-2xl w-full max-w-3xl md:max-w-5xl lg:max-w-6xl relative overflow-y-auto max-h-[90vh] p-4 sm:p-6">
