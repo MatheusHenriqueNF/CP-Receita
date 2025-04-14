@@ -98,7 +98,7 @@
       ],
       "modoPreparo": "Tempere o frango e grelhe. Cozinhe os legumes no vapor e sirva juntos.",
       "tempo": "30 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/frango-grelhado-legumes.avif"
     },
     {
       "id": 8,
@@ -113,7 +113,7 @@
       ],
       "modoPreparo": "Refogue os legumes e misture ao arroz cozido. Sirva quente.",
       "tempo": "25 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/arroz-grega.jpeg"
     },
     {
       "id": 9,
@@ -127,7 +127,7 @@
       ],
       "modoPreparo": "Cozinhe o feijão com os temperos e carnes. Sirva com arroz.",
       "tempo": "1h",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/feijoado-light.jpg"
     },
     {
       "id": 10,
@@ -141,7 +141,7 @@
       ],
       "modoPreparo": "Cozinhe o macarrão e refogue no alho dourado com azeite.",
       "tempo": "20 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/macarrao-alho-oleo.webp"
     },
     {
       "id": 11,
@@ -154,7 +154,7 @@
       ],
       "modoPreparo": "Bata os ovos com leite. Recheie e frite em frigideira.",
       "tempo": "10 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/omelete-recheado.jpg"
     },
     {
       "id": 12,
@@ -168,7 +168,7 @@
       ],
       "modoPreparo": "Refogue a carne, junte os temperos e finalize com creme de leite.",
       "tempo": "35 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/strogonoff-carne.png"
     },
     {
       "id": 13,
@@ -182,7 +182,7 @@
       ],
       "modoPreparo": "Misture os ingredientes e cozinhe até soltar do fundo. Enrole e passe no granulado.",
       "tempo": "20 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/brigadeiro.webp"
     },
     {
       "id": 14,
@@ -196,7 +196,7 @@
       ],
       "modoPreparo": "Bata tudo no liquidificador. Caramelize uma forma e asse em banho-maria por 1h.",
       "tempo": "1h 30min",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/pudim-leite.jpg"
     },
     {
       "id": 15,
@@ -209,7 +209,7 @@
       ],
       "modoPreparo": "Misture tudo e leve à geladeira por 4h.",
       "tempo": "10 minutos + gelar",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/mousse-maracuja.webp"
     },
     {
       "id": 16,
@@ -224,7 +224,7 @@
       ],
       "modoPreparo": "Triture a bolacha, misture com a manteiga. Forre a forma. Misture os outros ingredientes e leve à geladeira.",
       "tempo": "1h",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/torta-limao.jpg"
     },
     {
       "id": 17,
@@ -241,7 +241,7 @@
       ],
       "modoPreparo": "Misture tudo, despeje na forma e asse a 180°C por 35 minutos.",
       "tempo": "45 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/bolo-simples-chocolate.jpeg"
     },
     {
       "id": 18,
@@ -256,7 +256,7 @@
       ],
       "modoPreparo": "Pique as frutas, cubra com iogurte e finalize com mel.",
       "tempo": "5 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/iogurte-frutas.webp"
     },
     {
       "id": 19,
@@ -271,7 +271,7 @@
       ],
       "modoPreparo": "Monte o sanduíche com os ingredientes.",
       "tempo": "5 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/lanche-natural.jpg"
     },
     {
       "id": 20,
@@ -285,7 +285,7 @@
       ],
       "modoPreparo": "Recheie o pão folha e enrole como wrap.",
       "tempo": "10 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/wrap-frango.webp"
     },
     {
       "id": 21,
@@ -298,7 +298,7 @@
       ],
       "modoPreparo": "Hidrate o flocão e cozinhe na cuscuzeira por 10 minutos.",
       "tempo": "15 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/cuscuz-nordestino.jpg"
     },
     {
       "id": 22,
@@ -312,7 +312,7 @@
       ],
       "modoPreparo": "Bata tudo no liquidificador.",
       "tempo": "5 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/vitamina-frutas.webp"
     },
     {
       "id": 23,
@@ -326,7 +326,7 @@
       ],
       "modoPreparo": "Monte e leve ao forno até o queijo derreter.",
       "tempo": "10 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/mini-pizza-pao.jpeg"
     },
     {
       "id": 24,
@@ -339,7 +339,7 @@
       ],
       "modoPreparo": "Misture e modele biscoitos. Asse por 15 minutos a 180°C.",
       "tempo": "20 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/bicoito-aveia.webp"
     },
     {
       "id": 25,
@@ -352,7 +352,7 @@
       ],
       "modoPreparo": "Cozinhe os legumes e bata no liquidificador. Sirva quente.",
       "tempo": "40 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/sopa-legumes.jpg"
     },
     {
       "id": 26,
@@ -366,7 +366,7 @@
       ],
       "modoPreparo": "Faça purê de batata, refogue a carne e monte camadas. Leve ao forno para gratinar.",
       "tempo": "1h",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/escondidinho-carne-moida.jpg"
     },
     {
       "id": 27,
@@ -380,7 +380,7 @@
       ],
       "modoPreparo": "Bata os ingredientes da massa. Frite e recheie com carne ou frango.",
       "tempo": "30 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/panqueca-salgada.webp"
     },
     {
       "id": 28,
@@ -394,7 +394,7 @@
       ],
       "modoPreparo": "Misture tudo, cubra com queijo e leve ao forno até gratinar.",
       "tempo": "35 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/arroz-forno.webp"
     },
     {
       "id": 29,
@@ -408,7 +408,7 @@
       ],
       "modoPreparo": "Corte as batatas, misture com ovos batidos e cebola. Frite dos dois lados.",
       "tempo": "25 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/tortilha-batata.jpeg"
     },
     {
       "id": 30,
@@ -422,6 +422,6 @@
       ],
       "modoPreparo": "Refogue o arroz, adicione caldo aos poucos e os legumes. Finalize com parmesão.",
       "tempo": "40 minutos",
-      "imagem": "/image/pao-queijo.jpg"
+      "imagem": "/image/risoto-legumes.webp"
     }
   ]
