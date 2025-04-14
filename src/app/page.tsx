@@ -57,9 +57,9 @@ export default function Home() {
         <CardQualidade title="Realize cada receita e se torne um profissional na cozinha" imagem="/image/icon-chef.png"/>
         <CardQualidade title="Faça as melhores comidas em companhia" imagem="/image/icon-companhia.png"/>
         <CardQualidade title="Reserve um tempo para a diversão na cozinha" imagem="/image/icon-time.png"/>
-        <CardQualidade title="Reserve um tempo para a diversão na cozinha" imagem="/image/icon-time.png"/>
-        <CardQualidade title="Reserve um tempo para a diversão na cozinha" imagem="/image/icon-time.png"/>
-        <CardQualidade title="Reserve um tempo para a diversão na cozinha" imagem="/image/icon-time.png"/>
+        <CardQualidade title="Aprecie as comidas mais deliciosas" imagem="/image/food.png"/>
+        <CardQualidade title="Tenha um momento em família" imagem="/image/familia.png"/>
+        <CardQualidade title="Escolha várias opções de comidas" imagem="/image/opcao.png"/>
        
       </section>
       
